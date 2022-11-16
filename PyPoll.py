@@ -84,6 +84,8 @@ with open(file_to_save, 'w') as txt_file:
 
         #print candidate name and vote stats
         candidate_results = (f'{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n')
+
+        print(candidate_results)
         txt_file.write(candidate_results)
 
         
@@ -103,9 +105,10 @@ with open(file_to_save, 'w') as txt_file:
         f'Winning Vote Count: {winning_count:,}\n'
         f'Winning Percentage: {winning_percentage:.1f}%\n'
         f'-----------------------------\n')
-
-    #print(winning_candidate_summary)
-
+    
+    print(winning_candidate_summary)
+    #write winner sumarry to txt file
+    txt_file.write(winning_candidate_summary)
 
 
 
