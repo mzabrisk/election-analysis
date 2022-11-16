@@ -58,10 +58,10 @@ with open(file_to_load) as election_data:
 with open(file_to_save, 'w') as txt_file:
 
     election_results = (
-        f'Election Results\n'
-        f'-----------------------------\n'
+        f'\nElection Results\n'
+        f'-------------------------\n'
         f'Total Votes: {total_votes:,}\n'
-        f'-----------------------------\n')
+        f'-------------------------\n')
     print(election_results, end='')
 
     # Save final vote count to txt file
@@ -82,8 +82,9 @@ with open(file_to_save, 'w') as txt_file:
 
         # print(f'{candidate_name} received {vote_percentage:.1f}% of the vote.')
 
-        #pring candidate name and vote stats
-        #print(f'{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n')
+        #print candidate name and vote stats
+        candidate_results = (f'{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n')
+        txt_file.write(candidate_results)
 
         
         # comparative statements to determine winner (within for loop)
