@@ -16,14 +16,18 @@ The Colorado Board of Elections has reached out for help conducting an election 
     -  **Jefferson:** **38,855 votes** were cast in Jefferson County, for **10.5%** of the total vote.
     - **Denver:** **306,055 votes** were cast in Denver County, for **82.8%** of the total vote.
     - **Arapahoe:** **24,801 votes** were cast in Arapahoe County, for **6.7%** of the total vote.
-- The most votes were cast in **Denver County**.
+- The most votes were cast in **Denver County**. with 306,055 votes
 - Candidate vote breakdown:
-    - 
-
-
-
+    - **Stockham:** **85,213 votes** were case for Charles Casper Stockham, for **23.0%** of the total vote.
+    - **DeGette:** **272,892 votes** were case for Diana DeGette, for **73.8%** of the total votes.
+    - **Doane:** **11,606 votes** were case for Raymon Anthony Doane, for **3.1%** of the total vote.
+- The winning candidate was Diana DeGette, who recived **272,892 votes** for **73.8%** of the total vote.
 
 ## Election-Audit Summary
 
+This code works well for analyzing the results of a popular-vote election at the state level. However, in order for it to perform well in other elections, such as a national election, an additional layer needs to be accounted for. In this analyis, we account for county votes and total votes. In order to move up to the national level, we would need to keep track of electoral district (analagous to county), state (analagous to total), and national votes. Additionally, our analysis only kept track of the total voting results, but results at all levels need to be tracked.
 
+- Output that includes individual condidate votes for each county.
+
+- A list of dictionaries, where each dictionary represented a State, and each item in the dictionary represented a district.
 
