@@ -25,9 +25,16 @@ The Colorado Board of Elections has reached out for help conducting an election 
 
 ## Election-Audit Summary
 
-This code works well for analyzing the results of a popular-vote election at the state level. However, in order for it to perform well in other elections, such as a national election, an additional layer needs to be accounted for. In this analyis, we account for county votes and total votes. In order to move up to the national level, we would need to keep track of electoral district (analagous to county), state (analagous to total), and national votes. Additionally, our analysis only kept track of the total voting results, but results at all levels need to be tracked.
+This code works well for analyzing the results of a popular-vote election at the state level. However, in order for it to perform well for elections with an additional layer, such as a national election, an additional layer needs to be accounted for. In this analyis, we account for county votes and total votes. In order to move up to the national level, we would need to keep track of electoral district (analagous to county), state (analagous to total), and national votes. Additionally, our analysis only kept track of the total voting results, but results at all levels need to be tracked. To accomplish this, a coupel of changes need to be made to the code.
 
-- Output that includes individual condidate votes for each county.
+- The following changes to the main *for* loop enable detailed vote tracking at the county level, while still maintaining the ability to easily discern the overal outcome:
 
-- A list of dictionaries, where each dictionary represented a State, and each item in the dictionary represented a district.
+
+
+
+- In order to organize the code to work at the national level, an extra layer needs to be added, whcih would result in a nested dictionary similarly organized to this:
+
+
+
+Of course, to work in US elections as they are currently designed 
 
