@@ -31,7 +31,7 @@ This code works well for analyzing the results of a popular-vote election. Howev
 
 ![](https://github.com/mzabrisk/election-analysis/blob/2cbdaea5bd233a05aa0b2c103220ab2144b7352c/Resources/revised_code.png)
 
-As currently written, it provides the following output:
+As currently written, it provides the below output. Adding percentages, totals, etc. from this data would be relatively straight forward:
 
 ![](https://github.com/mzabrisk/election-analysis/blob/2cbdaea5bd233a05aa0b2c103220ab2144b7352c/Resources/revised_output.png)
 
