@@ -37,6 +37,7 @@ As currently written, provides the following output:
 
 - In order to organize the code to work at the national level, an extra layer needs to be added, which would result in a nested dictionary similarly organized to this:
 
+![](https://github.com/mzabrisk/election-analysis/blob/2cbdaea5bd233a05aa0b2c103220ab2144b7352c/Resources/modified_dict.png)
 
 
 Of course, to work in US elections as they are currently designed 
