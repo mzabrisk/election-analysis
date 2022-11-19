@@ -36,7 +36,7 @@ As currently written, it provides the below output. Adding percentages, totals, 
 ![](https://github.com/mzabrisk/election-analysis/blob/2cbdaea5bd233a05aa0b2c103220ab2144b7352c/Resources/revised_output.png)
 
 
-- In order to organize the code to work at the national level, an extra layer needs to be added, which would result in a nested dictionary similarly organized to this (the code in the above loop yields a dictionary similar to what is shown below, but removes the outer layer):
+- In order to organize the code to work at the national level, an extra layer needs to be added, which would result in a nested dictionary similarly organized to this (the code in the above loop yields a dictionary similar to what is shown below, but removes the outer layer):  
 
 ![](https://github.com/mzabrisk/election-analysis/blob/2cbdaea5bd233a05aa0b2c103220ab2144b7352c/Resources/modified_dict.png)
 
