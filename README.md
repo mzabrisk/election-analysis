@@ -40,4 +40,4 @@ As currently written, it provides the below output. Adding percentages, totals, 
 
 ![](https://github.com/mzabrisk/election-analysis/blob/2cbdaea5bd233a05aa0b2c103220ab2144b7352c/Resources/modified_dict.png)
 
-Of course, with the way national elections are currently organized in the US, electoral votes need to be tracked. This code would still work up through the state level, but additional changes would be necessary to translate teh state-level results into electoral college votes.
+Of course, with the way national elections are currently organized in the US, electoral votes need to be tracked. This code would still work up through the state level, but additional changes would be necessary to translate the state-level results into electoral college votes.
